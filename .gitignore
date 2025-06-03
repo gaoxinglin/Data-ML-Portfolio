@@ -1,0 +1,23 @@
+# Ignore common machine learning and Python files
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+.vscode/
+
+# Ignore data files
+*.csv
+*.xlsx
+*.pkl
+*.joblib
+
+# Ignore environment files
+.env
+venv/
+env/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore build artifacts
+dist/
+build/
